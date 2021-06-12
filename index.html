@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greatest Survey in the World</title>
+  </head>
+  <body>
+    <section id="bodyhead">
+      <h1 id="title">Greatest Survey Form Ever!</h1>
+      <p id="description">Take my survey or else!</p>
+    </section>
+    <section>
+      <form id="survey-form" action="#">
+        <label for="name" id="name-label">Enter your name for evil!</label>
+        <input
+          id="name"
+          type="text"
+          required
+          placeholder="I will use this for evil"
+        /><br />
+        <label for="email" id="email-label">Enter your email for evil!</label>
+        <input
+          id="email"
+          type="email"
+          required
+          placeholder="I will use this for evil"
+        /><br />
+        <label for="number" id="number-label"
+          >Enter your number for evil!</label
+        >
+        <input
+          id="number"
+          type="number"
+          required
+          min="0"
+          max="100"
+          placeholder="I will use this for evil"
+        /><br />
+
+        <label for="dropdown">Choose your favorite car!</label>
+        <select
+          name="I need this so data from the dropdown is submitted"
+          id="dropdown"
+        >
+          <option value="Sasucar Vroomchiha">Sasucar Vroomchiha</option>
+          <option value="Caruto Cruisemaki">Caruto Cruisemaki</option>
+          <option value="Sacarra">Sacarra</option>
+          <option value="Carra">Carra</option>
+        </select>
+
+        <fieldset>
+          <legend>Choose your favorite car again!</legend>
+          <input
+            type="radio"
+            id="Sasucar Vroomchiha"
+            name="radio"
+            value="Sasucar Vroomchiha"
+          /><label for="Sasucar Vroomchiha">Sasucar Vroomchiha</label><br />
+          <input
+            type="radio"
+            id="Caruto Cruisemaki"
+            name="radio"
+            value="Caruto Cruisemaki"
+          /><label for="Caruto Cruisemaki">Caruto Cruisemaki</label><br />
+          <input type="radio" id="Sacarra" name="radio" value="Sacarra" /><label
+            for="Sacarra"
+            >Sacarra</label
+          ><br />
+          <input type="radio" id="Carra" name="radio" value="Carra" /><label
+            for="Carra"
+            >Carra</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>Choose your favorite car again!</legend>
+          <input
+            type="checkbox"
+            id="cbSasucar Vroomchiha"
+            value="cbSasucar Vroomchiha"
+            name="checkbox"
+          /><label for="cbSasucar Vroomchiha">Sasucar Vroomchiha</label><br />
+          <input
+            type="checkbox"
+            id="cbCaruto Cruisemaki"
+            value="cbCaruto Cruisemaki"
+            name="checkbox"
+          /><label for="cbCaruto Cruisemaki">Caruto Cruisemaki</label><br />
+          <input
+            type="checkbox"
+            id="cbSacarra"
+            name="checkbox"
+            value="cbScarra"
+          /><label for="cbSacarra">Sacarra</label><br />
+          <input
+            type="checkbox"
+            id="cbCarra"
+            name="checkbox"
+            value="cbCarra"
+          /><label for="cbCarra">Carra</label>
+        </fieldset>
+
+        <label for="textarea">Additional comments regarding this survey:</label>
+        <textarea
+          id="textarea"
+          name="textarea"
+          rows="10"
+          cols="100"
+          placeholder="I will use this for evil"
+        ></textarea
+        ><br />
+        <input type="submit" id="submit" value="Submit your form data!" />
+      </form>
+    </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
